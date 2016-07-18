@@ -33,7 +33,7 @@
 include "openkid-util.php";
 
 // Edit depending on your repository position
-$repoURL = "http://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/";
+$repoURL = "https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/";
 $sampleISIN = "IT0123456789";
 $minDate = DateTime::createFromFormat('Y-m-d', "2017-02-01");
 

@@ -52,7 +52,21 @@ class OpenKIDUtils
 		// system files so easier for development.
 		// You can make it always true in case you only open from local
 		// file system.
-		if(ini_get('allow_url_fopen'))
+		// We check also if some traditional extension and wrapper to
+		// access most a provided url are available else try curl
+
+		// This if is a bit complex it practically checks first if allow url fopen
+		// is available, if it is checks the provided url: if it contains https
+		// at the start it will checkk that https wrapper and openssl are available,
+		// if it's http at the start it will check if the http wrapper is available.
+		//
+		// Remember that if there is a redirect involved (eg: http url which will get
+		// redirected to https it won't be caught here and might fail if openssl
+		// is absent.
+		if(ini_get('allow_url_fopen') &&
+		   (strncmp($indexUrl, "https://", 7) != 0 || (extension_loaded('openssl') &&
+		   in_array('https', stream_get_wrappers()))) &&
+		   (strncmp($indexUrl, "http://", 7) != 0 || in_array('http', stream_get_wrappers())))
 		{
 			// As url fopen is available try to access open it directly
 			$XMLData = file_get_contents($indexUrl);
@@ -65,8 +79,13 @@ class OpenKIDUtils
 		}
 		else
 		{
-			// TODO: implement curl access
-			throw new Exception('Only allow_url_fopen is supported at the moment.');
+			$curl = curl_init($indexUrl);
+			curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
+			curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
+			curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
+			$XMLData = curl_exec($curl);
+			curl_close($curl);
 		}
 		
 		// Try to parse the string as xml and construct a tree.
