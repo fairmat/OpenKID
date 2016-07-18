@@ -143,7 +143,7 @@ class OpenKIDUtils
 	public static function getAllAvailableKIDs($repoUrl)
 	{
 		// Load the xml.
-		$XML = self::loadXML($repoUrl."kidsIndex.xml");
+		$XML = self::loadXML($repoUrl."kidsindex.xml");
 		
 		// Prepare an array to contain all KID in the index.
 		$KIDs = [];
@@ -203,7 +203,7 @@ class OpenKIDUtils
 	public static function getLastUpdate($repoUrl)
 	{
 		// Load the xml.
-		$XML = self::loadXML($repoUrl."kidsIndex.xml");
+		$XML = self::loadXML($repoUrl."kidsindex.xml");
 		
 		// Read the LastUpdated field and return it as a DateTime object.
 		return DateTime::createFromFormat('Y-m-d', (string)$XML->children()->LastUpdated)->setTime(0,0,0);
@@ -228,7 +228,7 @@ class OpenKIDUtils
 	public static function getProductPublishingHistory($indexUrl, $ISIN)
 	{
 		// Load the xml.
-		$XML = self::loadXML($indexUrl."kidsIndex.xml");
+		$XML = self::loadXML($indexUrl."kidsindex.xml");
 		
 		// Go through all KID found in the xml to find the one needed.
 		foreach ($XML->xpath('//KIDS/KIDEntry') as $item)
