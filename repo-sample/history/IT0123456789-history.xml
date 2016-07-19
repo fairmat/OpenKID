@@ -5,11 +5,11 @@
 		<Versions>
 			<Version>
 				<Language>It</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-it-v1.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-it-v1.pdf</Url>
 			</Version>
 			<Version>
 				<Language>En</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-en-v1.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-en-v1.pdf</Url>
 			</Version>
 		</Versions>
 	</Update>
@@ -18,11 +18,11 @@
 		<Versions>
 			<Version>
 				<Language>It</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-it-v2.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-it-v2.pdf</Url>
 			</Version>
 			<Version>
 				<Language>En</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-en-v2.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-en-v2.pdf</Url>
 			</Version>
 		</Versions>
 	</Update>
@@ -31,11 +31,11 @@
 		<Versions>
 			<Version>
 				<Language>It</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-it-v3.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-it-v3.pdf</Url>
 			</Version>
 			<Version>
 				<Language>En</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-en-v3.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-en-v3.pdf</Url>
 			</Version>
 		</Versions>
 	</Update>
@@ -44,11 +44,11 @@
 		<Versions>
 			<Version>
 				<Language>It</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-it-v4.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-it-v4.pdf</Url>
 			</Version>
 			<Version>
 				<Language>En</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-en-v4.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-en-v4.pdf</Url>
 			</Version>
 		</Versions>
 	</Update>
@@ -57,11 +57,11 @@
 		<Versions>
 			<Version>
 				<Language>It</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-it-v5.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-it-v5.pdf</Url>
 			</Version>
 			<Version>
 				<Language>En</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-en-v5.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-en-v5.pdf</Url>
 			</Version>
 		</Versions>
 	</Update>
@@ -70,11 +70,11 @@
 		<Versions>
 			<Version>
 				<Language>It</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-it-v6.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-it-v6.pdf</Url>
 			</Version>
 			<Version>
 				<Language>En</Language>
-				<Url>https://www.website.com/KIDS/IT0123456789-KID-en-v6.pdf</Url>
+				<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-en-v6.pdf</Url>
 			</Version>
 		</Versions>
 	</Update>
