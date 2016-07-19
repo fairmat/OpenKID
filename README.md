@@ -9,4 +9,4 @@ Distributors may distribute products from several manufacturers and they must be
 From the point of view of the distributor, it may become complex and expensive having to manage several distribution technologies, for this reason there will be the opportunity for some market data players to provide KID distribution and providing services. On the other hand, if manufacturers and distributors would agree on a standard about the representation of KIDs repository which any manufacturer could implement, even if a distributor will be required to access several repositories (one for each manufacturer), any the repository will share the same structure. This will provide several advantages.
 
 
-see https://www.openkid.org for more information
+see http://www.openkid.org for more information
