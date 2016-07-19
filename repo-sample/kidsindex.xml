@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <KIDIndex>
-	<LastUpdated>2017-02-01</LastUpdated>
+	<LastUpdated>2016-07-06</LastUpdated>
 	<KIDS>
 		<KIDEntry>
 			<Issuer>Issuer Name</Issuer>
 			<ISIN>IT0123456789</ISIN>
 			<ProductName>Product Name</ProductName>
-			<FirstPublished>2017-01-01</FirstPublished>
-			<LastUpdated>2017-02-01</LastUpdated>
+			<FirstPublished>2016-01-01</FirstPublished>
+			<LastUpdated>2016-06-01</LastUpdated>
 			<History>IT0123456789-history.xml</History>
 			<Versions>
 				<Version>
@@ -24,8 +24,8 @@
 			<Issuer>Issuer Name 2</Issuer>
 			<ISIN>IT9876543210</ISIN>
 			<ProductName>Product Name 2</ProductName>
-			<FirstPublished>2017-01-02</FirstPublished>
-			<LastUpdated>2017-02-01</LastUpdated>
+			<FirstPublished>2016-02-01</FirstPublished>
+			<LastUpdated>2016-06-02</LastUpdated>
 			<History>IT9876543210-history.xml</History>
 			<Versions>
 				<Version>
@@ -35,6 +35,78 @@
 				<Version>
 					<Language>En</Language>
 					<Url>https://www.website.com/KIDS/IT9876543210-KID-en.pdf</Url>
+				</Version>
+			</Versions>
+		</KIDEntry>
+		<KIDEntry>
+			<Issuer>Issuer Name 3</Issuer>
+			<ISIN>IT0000000003</ISIN>
+			<ProductName>Product Name 3</ProductName>
+			<FirstPublished>2016-03-01</FirstPublished>
+			<LastUpdated>2016-06-03</LastUpdated>
+			<History>IT0000000003-history.xml</History>
+			<Versions>
+				<Version>
+					<Language>It</Language>
+					<Url>https://www.website.com/KIDS/IT0000000003-KID-it.pdf</Url>
+				</Version>
+				<Version>
+					<Language>En</Language>
+					<Url>https://www.website.com/KIDS/IT0000000003-KID-en.pdf</Url>
+				</Version>
+			</Versions>
+		</KIDEntry>
+		<KIDEntry>
+			<Issuer>Issuer Name 4</Issuer>
+			<ISIN>IT0000000004</ISIN>
+			<ProductName>Product Name 4</ProductName>
+			<FirstPublished>2016-04-01</FirstPublished>
+			<LastUpdated>2016-06-04</LastUpdated>
+			<History>IT0000000004-history.xml</History>
+			<Versions>
+				<Version>
+					<Language>It</Language>
+					<Url>https://www.website.com/KIDS/IT0000000004-KID-it.pdf</Url>
+				</Version>
+				<Version>
+					<Language>En</Language>
+					<Url>https://www.website.com/KIDS/IT0000000004-KID-en.pdf</Url>
+				</Version>
+			</Versions>
+		</KIDEntry>
+		<KIDEntry>
+			<Issuer>Issuer Name 5</Issuer>
+			<ISIN>IT0000000005</ISIN>
+			<ProductName>Product Name 5</ProductName>
+			<FirstPublished>2016-05-05</FirstPublished>
+			<LastUpdated>2016-06-05</LastUpdated>
+			<History>IT0000000005-history.xml</History>
+			<Versions>
+				<Version>
+					<Language>It</Language>
+					<Url>https://www.website.com/KIDS/IT0000000005-KID-it.pdf</Url>
+				</Version>
+				<Version>
+					<Language>En</Language>
+					<Url>https://www.website.com/KIDS/IT0000000005-KID-en.pdf</Url>
+				</Version>
+			</Versions>
+		</KIDEntry>
+		<KIDEntry>
+			<Issuer>Issuer Name 6</Issuer>
+			<ISIN>IT0000000006</ISIN>
+			<ProductName>Product Name 6</ProductName>
+			<FirstPublished>2016-06-06</FirstPublished>
+			<LastUpdated>2016-07-06</LastUpdated>
+			<History>IT0000000006-history.xml</History>
+			<Versions>
+				<Version>
+					<Language>It</Language>
+					<Url>https://www.website.com/KIDS/IT0000000006-KID-it.pdf</Url>
+				</Version>
+				<Version>
+					<Language>En</Language>
+					<Url>https://www.website.com/KIDS/IT0000000006-KID-en.pdf</Url>
 				</Version>
 			</Versions>
 		</KIDEntry>

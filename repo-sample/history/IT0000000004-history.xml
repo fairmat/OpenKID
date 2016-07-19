@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<History>
+	<Update>
+		<PublishDate>2016-04-01</PublishDate>
+		<Versions>
+			<Version>
+				<Language>It</Language>
+				<Url>https://www.website.com/KIDS/IT0000000004-KID-it-v1.pdf</Url>
+			</Version>
+			<Version>
+				<Language>En</Language>
+				<Url>https://www.website.com/KIDS/IT0000000004-KID-en-v1.pdf</Url>
+			</Version>
+		</Versions>
+	</Update>
+	<Update>
+		<PublishDate>2016-05-10</PublishDate>
+		<Versions>
+			<Version>
+				<Language>It</Language>
+				<Url>https://www.website.com/KIDS/IT0000000004-KID-it-v2.pdf</Url>
+			</Version>
+			<Version>
+				<Language>En</Language>
+				<Url>https://www.website.com/KIDS/IT0000000004-KID-en-v2.pdf</Url>
+			</Version>
+		</Versions>
+	</Update>
+	<Update>
+		<PublishDate>2016-06-04</PublishDate>
+		<Versions>
+			<Version>
+				<Language>It</Language>
+				<Url>https://www.website.com/KIDS/IT0000000004-KID-it-v3.pdf</Url>
+			</Version>
+			<Version>
+				<Language>En</Language>
+				<Url>https://www.website.com/KIDS/IT0000000004-KID-en-v3.pdf</Url>
+			</Version>
+		</Versions>
+	</Update>
+</History>
