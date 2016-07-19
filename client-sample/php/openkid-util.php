@@ -255,7 +255,7 @@ class OpenKIDUtils
 			if($ISIN == (string)$item->ISIN[0])
 			{
 				// Now load the history xml
-				$XML = self::loadXML($indexUrl."history/".$item->History[0]);
+				$XML = self::loadXML($indexUrl.$item->History[0]);
 				
 				// Prepare an array to contain all KID updates in the history.
 				$history = [];

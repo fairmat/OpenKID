@@ -8,7 +8,7 @@
 			<ProductName>Product Name</ProductName>
 			<FirstPublished>2016-01-01</FirstPublished>
 			<LastUpdated>2016-06-01</LastUpdated>
-			<History>IT0123456789-history.xml</History>
+			<History>history/IT0123456789-history.xml</History>
 			<Versions>
 				<Version>
 					<Language>It</Language>
@@ -26,7 +26,7 @@
 			<ProductName>Product Name 2</ProductName>
 			<FirstPublished>2016-02-01</FirstPublished>
 			<LastUpdated>2016-06-02</LastUpdated>
-			<History>IT9876543210-history.xml</History>
+			<History>history/IT9876543210-history.xml</History>
 			<Versions>
 				<Version>
 					<Language>It</Language>
@@ -44,7 +44,7 @@
 			<ProductName>Product Name 3</ProductName>
 			<FirstPublished>2016-03-01</FirstPublished>
 			<LastUpdated>2016-06-03</LastUpdated>
-			<History>IT0000000003-history.xml</History>
+			<History>history/IT0000000003-history.xml</History>
 			<Versions>
 				<Version>
 					<Language>It</Language>
@@ -62,7 +62,7 @@
 			<ProductName>Product Name 4</ProductName>
 			<FirstPublished>2016-04-01</FirstPublished>
 			<LastUpdated>2016-06-04</LastUpdated>
-			<History>IT0000000004-history.xml</History>
+			<History>history/IT0000000004-history.xml</History>
 			<Versions>
 				<Version>
 					<Language>It</Language>
@@ -80,7 +80,7 @@
 			<ProductName>Product Name 5</ProductName>
 			<FirstPublished>2016-05-05</FirstPublished>
 			<LastUpdated>2016-06-05</LastUpdated>
-			<History>IT0000000005-history.xml</History>
+			<History>history/IT0000000005-history.xml</History>
 			<Versions>
 				<Version>
 					<Language>It</Language>
@@ -98,7 +98,7 @@
 			<ProductName>Product Name 6</ProductName>
 			<FirstPublished>2016-06-06</FirstPublished>
 			<LastUpdated>2016-06-06</LastUpdated>
-			<History>IT0000000006-history.xml</History>
+			<History>history/IT0000000006-history.xml</History>
 			<Versions>
 				<Version>
 					<Language>It</Language>
