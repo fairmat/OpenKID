@@ -34,7 +34,8 @@ include "openkid-util.php";
 
 // Edit depending on your repository position
 $repoURL = "https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/";
-$sampleISIN = "IT0123456789";
+$sampleISIN  = "IT0123456789";
+$sampleISIN2 = "IT0000000006";
 $minDate = DateTime::createFromFormat('Y-m-d', "2017-02-01");
 
 // Call all available functions
@@ -42,5 +43,6 @@ print_r(OpenKIDUtils::getLastUpdate($repoURL));
 print_r(OpenKIDUtils::getAllAvailableKIDs($repoURL));
 print_r(OpenKIDUtils::getAllAvailableKIDsAfterDate($repoURL, $minDate));
 print_r(OpenKIDUtils::getProductPublishingHistory($repoURL, $sampleISIN));
+print_r(OpenKIDUtils::getProductPublishingHistory($repoURL, $sampleISIN2));
 
 ?>
