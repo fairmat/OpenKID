@@ -47,7 +47,7 @@ class OpenKIDUtils
 	 */
 	private static function loadXML($indexUrl)
 	{
-		$XMLData = "";
+		$XMLData = FALSE;
 		// This requires allow_url_fopen but allows to open also file
 		// system files so easier for development.
 		// You can make it always true in case you only open from local
@@ -70,12 +70,6 @@ class OpenKIDUtils
 		{
 			// As url fopen is available try to access open it directly
 			$XMLData = file_get_contents($indexUrl);
-			
-			// Check if we got something.
-			if(!$XMLData)
-			{
-				throw new Exception("Specified file not found.");
-			}
 		}
 		else
 		{
@@ -88,13 +82,19 @@ class OpenKIDUtils
 			curl_close($curl);
 		}
 		
+		// Check if we got something.
+		if($XMLData === FALSE)
+		{
+			throw new Exception("Specified file not found: ".$indexUrl);
+		}
+		
 		// Try to parse the string as xml and construct a tree.
 		$XML = simplexml_load_string($XMLData);
 		
 		// If it faled throw an exception
-		if(!$XML)
+		if($XML === FALSE)
 		{
-			throw new Exception("XML couldn't be parsed");
+			throw new Exception("XML couldn't be parsed: ".$indexUrl);
 		}
 
 		return $XML;
