@@ -1,50 +1,189 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <KIDIndex>
-	<LastUpdated>2016-07-06</LastUpdated>
+	<LastUpdated>2017-08-23</LastUpdated>
 	<KIDS>
 		<KIDEntry>
 			<Issuer>Issuer Name</Issuer>
-			<ISIN>IT0123456789</ISIN>
-			<ProductName>Product Name</ProductName>
-			<FirstPublished>2016-01-01</FirstPublished>
-			<LastUpdated>2016-06-01</LastUpdated>
-			<History>history/IT0123456789-history.xml</History>
+			<ISIN>IT0000000001</ISIN>
+			<ProductName>Product Name A</ProductName>
+			<FirstPublished>2017-01-01</FirstPublished>
+			<LastUpdated>2017-06-30</LastUpdated>
+			<TargetMarkets>
+				<InvestorType>
+					<InvestorTypeRetail>Y</InvestorTypeRetail>
+					<InvestorTypeProfessional>N</InvestorTypeProfessional>
+					<InvestorTypeEligibleCounterparty>Neutral</InvestorTypeEligibleCounterparty>
+				</InvestorType>
+				<KnowledgeAndExperience>
+					<BasicInvestor>Y</BasicInvestor>
+					<InformedInvestor>Y</InformedInvestor>
+					<AdvancedInvestor>N</AdvancedInvestor>
+				</KnowledgeAndExperience>
+				<AbilityToBearLosses>
+					<NoCapitalLoss>N</NoCapitalLoss>
+					<LimitedCapitalLoss>Neutral</LimitedCapitalLoss>
+					<LimitedCapitalLossLevel>Y</LimitedCapitalLossLevel>
+					<NoCapitalGuarantee>N</NoCapitalGuarantee>
+					<LossBeyondCapital>N</LossBeyondCapital>
+				</AbilityToBearLosses>
+				<RiskTolerance>
+					<RiskTolerancePRIIPSMethodology>4</RiskTolerancePRIIPSMethodology>
+					<RiskToleranceUCITSMetholodology>3</RiskToleranceUCITSMetholodology>
+				</RiskTolerance>
+				<ClientObjectivesAndNeeds>
+					<ReturnProfilePreservation>Y</ReturnProfilePreservation>
+					<ReturnProfileGrowth>N</ReturnProfileGrowth>
+					<ReturnProfileIncome>N</ReturnProfileIncome>
+					<ReturnProfileHedging>N</ReturnProfileHedging>
+					<OptionOrLeveragedReturnProfile>Y</OptionOrLeveragedReturnProfile>
+					<ReturnProfileOther>Neutral</ReturnProfileOther>
+					<TimeHorizon>L</TimeHorizon>
+					<MaturityDate>2019-11-30</MaturityDate>
+					<MayBeTerminatedEarly>Y</MayBeTerminatedEarly>
+					<SpecificInvestmentNeed>N</SpecificInvestmentNeed>
+				</ClientObjectivesAndNeeds>
+			</TargetMarkets>
 			<Versions>
 				<Version>
 					<Language>It</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-it.pdf</Url>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-it.pdf</Url>
 				</Version>
 				<Version>
 					<Language>En</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0123456789-KID-en.pdf</Url>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-en.pdf</Url>
 				</Version>
 			</Versions>
+			<Attachments>
+				<Attached>
+					<Description>Any description</Description>
+					<Language>It</Language>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-OtherFiles-it.zip</Url>
+				</Attached>
+				<Attached>
+					<Description>Any description</Description>
+					<Language>En</Language>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-OtherFiles-en.zip</Url>
+				</Attached>
+			</Attachments>
+			<History>history/IT0000000001-history.xml</History>
+			<InvestmentOptions></InvestmentOptions>
 		</KIDEntry>
 		<KIDEntry>
-			<Issuer>Issuer Name 2</Issuer>
-			<ISIN>IT9876543210</ISIN>
-			<ProductName>Product Name 2</ProductName>
-			<FirstPublished>2016-02-01</FirstPublished>
-			<LastUpdated>2016-06-02</LastUpdated>
-			<History>history/IT9876543210-history.xml</History>
+			<Issuer>Issuer Name</Issuer>
+			<ISIN>IT0000000002</ISIN>
+			<ProductName>Product Name B</ProductName>
+			<FirstPublished>2017-09-01</FirstPublished>
+			<LastUpdated>2017-08-23</LastUpdated>
+			<TargetMarkets>
+				<InvestorType>
+					<InvestorTypeRetail>N</InvestorTypeRetail>
+					<InvestorTypeProfessional>Y</InvestorTypeProfessional>
+					<InvestorTypeEligibleCounterparty>Y</InvestorTypeEligibleCounterparty>
+				</InvestorType>
+				<KnowledgeAndExperience>
+					<BasicInvestor>N</BasicInvestor>
+					<InformedInvestor>Y</InformedInvestor>
+					<AdvancedInvestor>Neutral</AdvancedInvestor>
+				</KnowledgeAndExperience>
+				<AbilityToBearLosses>
+					<NoCapitalLoss>Y</NoCapitalLoss>
+					<LimitedCapitalLoss>N</LimitedCapitalLoss>
+					<LimitedCapitalLossLevel>N</LimitedCapitalLossLevel>
+					<NoCapitalGuarantee>Y</NoCapitalGuarantee>
+					<LossBeyondCapital>Y</LossBeyondCapital>
+				</AbilityToBearLosses>
+				<RiskTolerance>
+					<RiskTolerancePRIIPSMethodology>5</RiskTolerancePRIIPSMethodology>
+					<RiskToleranceUCITSMetholodology>5</RiskToleranceUCITSMetholodology>
+				</RiskTolerance>
+				<ClientObjectivesAndNeeds>
+					<ReturnProfilePreservation>Neutral</ReturnProfilePreservation>
+					<ReturnProfileGrowth>Y</ReturnProfileGrowth>
+					<ReturnProfileIncome>Y</ReturnProfileIncome>
+					<ReturnProfileHedging>Y</ReturnProfileHedging>
+					<OptionOrLeveragedReturnProfile>N</OptionOrLeveragedReturnProfile>
+					<ReturnProfileOther>N</ReturnProfileOther>
+					<TimeHorizon>L</TimeHorizon>
+					<MaturityDate>2021-01-30</MaturityDate>
+					<MayBeTerminatedEarly>Y</MayBeTerminatedEarly>
+					<SpecificInvestmentNeed>E</SpecificInvestmentNeed>
+				</ClientObjectivesAndNeeds>
+			</TargetMarkets>
 			<Versions>
 				<Version>
 					<Language>It</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT9876543210-KID-it.pdf</Url>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-KID-it.pdf</Url>
 				</Version>
 				<Version>
 					<Language>En</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT9876543210-KID-en.pdf</Url>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-KID-en.pdf</Url>
+				</Version>
+				<Version>
+					<Language>De</Language>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-KID-de.pdf</Url>
 				</Version>
 			</Versions>
+			<Attachments>
+				<Attached>
+					<Description>History files in zip</Description>
+					<Language>It</Language>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-history-it.zip</Url>
+				</Attached>
+				<Attached>
+					<Description>History files in zip</Description>
+					<Language>En</Language>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-history-en.zip</Url>
+				</Attached>
+				<Attached>
+					<Description>History files in zip</Description>
+					<Language>De</Language>
+					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-history-de.zip</Url>
+				</Attached>
+			</Attachments>
+			<History></History>
+			<InvestmentOptions></InvestmentOptions>
 		</KIDEntry>
 		<KIDEntry>
-			<Issuer>Issuer Name 3</Issuer>
+			<Issuer>Issuer Name</Issuer>
 			<ISIN>IT0000000003</ISIN>
-			<ProductName>Product Name 3</ProductName>
-			<FirstPublished>2016-03-01</FirstPublished>
-			<LastUpdated>2016-06-03</LastUpdated>
-			<History>history/IT0000000003-history.xml</History>
+			<ProductName>Product Name C</ProductName>
+			<FirstPublished>2017-09-01</FirstPublished>
+			<LastUpdated>2017-07-20</LastUpdated>
+			<TargetMarkets>
+				<InvestorType>
+					<InvestorTypeRetail>Neutral</InvestorTypeRetail>
+					<InvestorTypeProfessional>Neutral</InvestorTypeProfessional>
+					<InvestorTypeEligibleCounterparty>Y</InvestorTypeEligibleCounterparty>
+				</InvestorType>
+				<KnowledgeAndExperience>
+					<BasicInvestor>N</BasicInvestor>
+					<InformedInvestor>Y</InformedInvestor>
+					<AdvancedInvestor>Neutral</AdvancedInvestor>
+				</KnowledgeAndExperience>
+				<AbilityToBearLosses>
+					<NoCapitalLoss>Neutral</NoCapitalLoss>
+					<LimitedCapitalLoss>Y</LimitedCapitalLoss>
+					<LimitedCapitalLossLevel>N</LimitedCapitalLossLevel>
+					<NoCapitalGuarantee>N</NoCapitalGuarantee>
+					<LossBeyondCapital>N</LossBeyondCapital>
+				</AbilityToBearLosses>
+				<RiskTolerance>
+					<RiskTolerancePRIIPSMethodology>2-6</RiskTolerancePRIIPSMethodology>
+					<RiskToleranceUCITSMetholodology></RiskToleranceUCITSMetholodology>
+				</RiskTolerance>
+				<ClientObjectivesAndNeeds>
+					<ReturnProfilePreservation>Neutral</ReturnProfilePreservation>
+					<ReturnProfileGrowth>N</ReturnProfileGrowth>
+					<ReturnProfileIncome>Y</ReturnProfileIncome>
+					<ReturnProfileHedging>Y</ReturnProfileHedging>
+					<OptionOrLeveragedReturnProfile>Neutral</OptionOrLeveragedReturnProfile>
+					<ReturnProfileOther>N</ReturnProfileOther>
+					<TimeHorizon>4.2</TimeHorizon>
+					<MaturityDate>2021-03-30</MaturityDate>
+					<MayBeTerminatedEarly>Y</MayBeTerminatedEarly>
+					<SpecificInvestmentNeed>G</SpecificInvestmentNeed>
+				</ClientObjectivesAndNeeds>
+			</TargetMarkets>
 			<Versions>
 				<Version>
 					<Language>It</Language>
@@ -55,60 +194,120 @@
 					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000003-KID-en.pdf</Url>
 				</Version>
 			</Versions>
-		</KIDEntry>
-		<KIDEntry>
-			<Issuer>Issuer Name 4</Issuer>
-			<ISIN>IT0000000004</ISIN>
-			<ProductName>Product Name 4</ProductName>
-			<FirstPublished>2016-04-01</FirstPublished>
-			<LastUpdated>2016-06-04</LastUpdated>
-			<History>history/IT0000000004-history.xml</History>
-			<Versions>
-				<Version>
-					<Language>It</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000004-KID-it.pdf</Url>
-				</Version>
-				<Version>
-					<Language>En</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000004-KID-en.pdf</Url>
-				</Version>
-			</Versions>
-		</KIDEntry>
-		<KIDEntry>
-			<Issuer>Issuer Name 5</Issuer>
-			<ISIN>IT0000000005</ISIN>
-			<ProductName>Product Name 5</ProductName>
-			<FirstPublished>2016-05-05</FirstPublished>
-			<LastUpdated>2016-06-05</LastUpdated>
-			<History>history/IT0000000005-history.xml</History>
-			<Versions>
-				<Version>
-					<Language>It</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000005-KID-it.pdf</Url>
-				</Version>
-				<Version>
-					<Language>En</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000005-KID-en.pdf</Url>
-				</Version>
-			</Versions>
-		</KIDEntry>
-		<KIDEntry>
-			<Issuer>Issuer Name 6</Issuer>
-			<ISIN>IT0000000006</ISIN>
-			<ProductName>Product Name 6</ProductName>
-			<FirstPublished>2016-06-06</FirstPublished>
-			<LastUpdated>2016-06-06</LastUpdated>
-			<History>history/IT0000000006-history.xml</History>
-			<Versions>
-				<Version>
-					<Language>It</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000006-KID-it.pdf</Url>
-				</Version>
-				<Version>
-					<Language>En</Language>
-					<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000006-KID-en.pdf</Url>
-				</Version>
-			</Versions>
+			<Attachments></Attachments>
+			<History></History>
+			<InvestmentOptions>
+				<KIDEntry>
+					<Issuer>Issuer Name</Issuer>
+					<ISIN>IT000000003A</ISIN>
+					<ProductName>Product Name C1</ProductName>
+					<FirstPublished>2017-09-01</FirstPublished>
+					<LastUpdated>2017-07-20</LastUpdated>
+					<TargetMarkets>
+						<InvestorType>
+							<InvestorTypeRetail>Neutral</InvestorTypeRetail>
+							<InvestorTypeProfessional>Neutral</InvestorTypeProfessional>
+							<InvestorTypeEligibleCounterparty>Y</InvestorTypeEligibleCounterparty>
+						</InvestorType>
+						<KnowledgeAndExperience>
+							<BasicInvestor>N</BasicInvestor>
+							<InformedInvestor>Y</InformedInvestor>
+							<AdvancedInvestor>Neutral</AdvancedInvestor>
+						</KnowledgeAndExperience>
+						<AbilityToBearLosses>
+							<NoCapitalLoss>Neutral</NoCapitalLoss>
+							<LimitedCapitalLoss>Y</LimitedCapitalLoss>
+							<LimitedCapitalLossLevel>N</LimitedCapitalLossLevel>
+							<NoCapitalGuarantee>N</NoCapitalGuarantee>
+							<LossBeyondCapital>N</LossBeyondCapital>
+						</AbilityToBearLosses>
+						<RiskTolerance>
+							<RiskTolerancePRIIPSMethodology>2</RiskTolerancePRIIPSMethodology>
+							<RiskToleranceUCITSMetholodology></RiskToleranceUCITSMetholodology>
+						</RiskTolerance>
+						<ClientObjectivesAndNeeds>
+							<ReturnProfilePreservation>Neutral</ReturnProfilePreservation>
+							<ReturnProfileGrowth>N</ReturnProfileGrowth>
+							<ReturnProfileIncome>Y</ReturnProfileIncome>
+							<ReturnProfileHedging>Y</ReturnProfileHedging>
+							<OptionOrLeveragedReturnProfile>Neutral</OptionOrLeveragedReturnProfile>
+							<ReturnProfileOther>N</ReturnProfileOther>
+							<TimeHorizon>4.2</TimeHorizon>
+							<MaturityDate>2021-03-30</MaturityDate>
+							<MayBeTerminatedEarly>Y</MayBeTerminatedEarly>
+							<SpecificInvestmentNeed>G</SpecificInvestmentNeed>
+						</ClientObjectivesAndNeeds>
+					</TargetMarkets>
+					<Versions>
+						<Version>
+							<Language>It</Language>
+							<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003A-KID-it.pdf</Url>
+						</Version>
+						<Version>
+							<Language>En</Language>
+							<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003A-KID-en.pdf</Url>
+						</Version>
+					</Versions>
+					<Attachments></Attachments>
+					<History></History>
+					<InvestmentOptions></InvestmentOptions>
+				</KIDEntry>
+				<KIDEntry>
+					<Issuer>Issuer Name</Issuer>
+					<ISIN>IT000000003B</ISIN>
+					<ProductName>Product Name C2</ProductName>
+					<FirstPublished>2017-09-01</FirstPublished>
+					<LastUpdated>2017-07-20</LastUpdated>
+					<TargetMarkets>
+						<InvestorType>
+							<InvestorTypeRetail>Neutral</InvestorTypeRetail>
+							<InvestorTypeProfessional>Neutral</InvestorTypeProfessional>
+							<InvestorTypeEligibleCounterparty>Y</InvestorTypeEligibleCounterparty>
+						</InvestorType>
+						<KnowledgeAndExperience>
+							<BasicInvestor>N</BasicInvestor>
+							<InformedInvestor>Y</InformedInvestor>
+							<AdvancedInvestor>Neutral</AdvancedInvestor>
+						</KnowledgeAndExperience>
+						<AbilityToBearLosses>
+							<NoCapitalLoss>Neutral</NoCapitalLoss>
+							<LimitedCapitalLoss>Y</LimitedCapitalLoss>
+							<LimitedCapitalLossLevel>N</LimitedCapitalLossLevel>
+							<NoCapitalGuarantee>Y</NoCapitalGuarantee>
+							<LossBeyondCapital>N</LossBeyondCapital>
+						</AbilityToBearLosses>
+						<RiskTolerance>
+							<RiskTolerancePRIIPSMethodology>6</RiskTolerancePRIIPSMethodology>
+							<RiskToleranceUCITSMetholodology></RiskToleranceUCITSMetholodology>
+						</RiskTolerance>
+						<ClientObjectivesAndNeeds>
+							<ReturnProfilePreservation>Neutral</ReturnProfilePreservation>
+							<ReturnProfileGrowth>N</ReturnProfileGrowth>
+							<ReturnProfileIncome>N</ReturnProfileIncome>
+							<ReturnProfileHedging>Y</ReturnProfileHedging>
+							<OptionOrLeveragedReturnProfile>Neutral</OptionOrLeveragedReturnProfile>
+							<ReturnProfileOther>N</ReturnProfileOther>
+							<TimeHorizon>4.2</TimeHorizon>
+							<MaturityDate>2021-03-30</MaturityDate>
+							<MayBeTerminatedEarly>Y</MayBeTerminatedEarly>
+							<SpecificInvestmentNeed>G</SpecificInvestmentNeed>
+						</ClientObjectivesAndNeeds>
+					</TargetMarkets>
+					<Versions>
+						<Version>
+							<Language>It</Language>
+							<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003B-KID-it.pdf</Url>
+						</Version>
+						<Version>
+							<Language>En</Language>
+							<Url>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003B-KID-en.pdf</Url>
+						</Version>
+					</Versions>
+					<Attachments></Attachments>
+					<History></History>
+					<InvestmentOptions></InvestmentOptions>
+				</KIDEntry>
+			</InvestmentOptions>
 		</KIDEntry>
 	</KIDS>
 </KIDIndex>
