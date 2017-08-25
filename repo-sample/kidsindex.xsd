@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="KIDIndex">
+  <xs:element name="KIDsIndex">
     <xs:complexType>
       <xs:sequence>
         <xs:element name="LastRepositoryUpdated" type="xs:date" />
-        <xs:element name="KIDS">
+        <xs:element name="KIDs">
           <xs:complexType>
             <xs:sequence>
               <xs:element maxOccurs="unbounded" name="KIDEntry">
@@ -17,7 +17,7 @@
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
-                    <xs:element name="TypeOfIdentificationCodeForTheFinancialInstrument" >
+                    <xs:element name="FinancialInstrumentTypeOfIdentificationCode" >
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
                           <xs:pattern value="[1-9]|99"/>
@@ -32,9 +32,57 @@
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
-                    <xs:element name="FinancialInstrumentIssuerName" type="xs:string" />
-                    <xs:element name="FirstDocumentPublished" type="xs:date" />
-                    <xs:element name="LastDocumentUpdated" type="xs:date" />
+                    <xs:element name="FinancialInstrumentIssuerName" minOccurs="1">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:minLength value="1"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="FirstKIDDocumentPublished" type="xs:date" />
+                    <xs:element name="LastKIDDocumentUpdated" type="xs:date" />
+                    <xs:element name="KIDDocumentVersions">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="KIDLanguage">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:pattern value="[a-z]{2}"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="KIDUrl" type="xs:anyURI" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Attachments">
+                      <xs:complexType>
+                        <xs:sequence minOccurs="0">
+                          <xs:element maxOccurs="unbounded" name="Attachment">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="AttachmentDescription" type="xs:string" />
+                                <xs:element name="AttachmentLanguage">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:pattern value="[a-z]{2}"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="AttachmentUrl" type="xs:anyURI" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="History" type="xs:string" />
                     <xs:element name="TargetMarkets">
                       <xs:complexType>
                         <xs:sequence>
@@ -137,13 +185,6 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="RiskToleranceUCITSMetholodology">
-                                  <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                      <xs:pattern value="[1-7]|([1-7]{1}(-[1-7]{1}))|"/>
-                                    </xs:restriction>
-                                  </xs:simpleType>
-                                </xs:element>
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
@@ -214,48 +255,6 @@
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="KIDDocumentVersions">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element name="KidLanguage">
-                                  <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                      <xs:pattern value="[a-z]{2}"/>
-                                    </xs:restriction>
-                                  </xs:simpleType>
-                                </xs:element>
-                                <xs:element name="KidUrl" type="xs:anyURI" />
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="Attachments">
-                      <xs:complexType>
-                        <xs:sequence minOccurs="0">
-                          <xs:element maxOccurs="unbounded" name="Attachment">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element name="AttachmentDescription" type="xs:string" />
-                                <xs:element name="AttachmentLanguage">
-                                  <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                      <xs:pattern value="[a-z]{2}"/>
-                                    </xs:restriction>
-                                  </xs:simpleType>
-                                </xs:element>
-                                <xs:element name="AttachmentUrl" type="xs:anyURI" />
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="History" type="xs:string" />
                     <xs:element name="InvestmentOptions">
                       <xs:complexType>
                         <xs:sequence minOccurs="0">
@@ -269,7 +268,7 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="TypeOfIdentificationCodeForTheFinancialInstrument" >
+                                <xs:element name="FinancialInstrumentTypeOfIdentificationCode" >
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="[1-9]|99"/>
@@ -284,9 +283,57 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="FinancialInstrumentIssuerName" type="xs:string" />
-                                <xs:element name="FirstDocumentPublished" type="xs:date" />
-                                <xs:element name="LastDocumentUpdated" type="xs:date" />
+                                <xs:element name="FinancialInstrumentIssuerName" minOccurs="1">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:minLength value="1"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="FirstKIDDocumentPublished" type="xs:date" />
+                                <xs:element name="LastKIDDocumentUpdated" type="xs:date" />
+                                <xs:element name="KIDDocumentVersions">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="KIDLanguage">
+                                              <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                  <xs:pattern value="[a-z]{2}"/>
+                                                </xs:restriction>
+                                              </xs:simpleType>
+                                            </xs:element>
+                                            <xs:element name="KIDUrl" type="xs:anyURI" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Attachments">
+                                  <xs:complexType>
+                                    <xs:sequence minOccurs="0">
+                                      <xs:element maxOccurs="unbounded" name="Attachment">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="AttachmentDescription" type="xs:string" />
+                                            <xs:element name="AttachmentLanguage">
+                                              <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                  <xs:pattern value="[a-z]{2}"/>
+                                                </xs:restriction>
+                                              </xs:simpleType>
+                                            </xs:element>
+                                            <xs:element name="AttachmentUrl" type="xs:anyURI" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="History" type="xs:string" />
                                 <xs:element name="TargetMarkets">
                                   <xs:complexType>
                                     <xs:sequence>
@@ -389,13 +436,6 @@
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="RiskToleranceUCITSMetholodology">
-                                              <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                  <xs:pattern value="[1-7]|([1-7]{1}(-[1-7]{1}))|"/>
-                                                </xs:restriction>
-                                              </xs:simpleType>
-                                            </xs:element>
                                           </xs:sequence>
                                         </xs:complexType>
                                       </xs:element>
@@ -466,48 +506,6 @@
                                     </xs:sequence>
                                   </xs:complexType>
                                 </xs:element>
-                                <xs:element name="KIDDocumentVersions">
-                                  <xs:complexType>
-                                    <xs:sequence>
-                                      <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
-                                        <xs:complexType>
-                                          <xs:sequence>
-                                            <xs:element name="KIDLanguage">
-                                              <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                  <xs:pattern value="[a-z]{2}"/>
-                                                </xs:restriction>
-                                              </xs:simpleType>
-                                            </xs:element>
-                                            <xs:element name="KIDUrl" type="xs:anyURI" />
-                                          </xs:sequence>
-                                        </xs:complexType>
-                                      </xs:element>
-                                    </xs:sequence>
-                                  </xs:complexType>
-                                </xs:element>
-                                <xs:element name="Attachments">
-                                  <xs:complexType>
-                                    <xs:sequence minOccurs="0">
-                                      <xs:element maxOccurs="unbounded" name="Attachment">
-                                        <xs:complexType>
-                                          <xs:sequence>
-                                            <xs:element name="AttachmentDescription" type="xs:string" />
-                                            <xs:element name="AttachmentLanguage">
-                                              <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                  <xs:pattern value="[a-z]{2}"/>
-                                                </xs:restriction>
-                                              </xs:simpleType>
-                                            </xs:element>
-                                            <xs:element name="AttachmentUrl" type="xs:anyURI" />
-                                          </xs:sequence>
-                                        </xs:complexType>
-                                      </xs:element>
-                                    </xs:sequence>
-                                  </xs:complexType>
-                                </xs:element>
-                                <xs:element name="History" type="xs:string" />
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>

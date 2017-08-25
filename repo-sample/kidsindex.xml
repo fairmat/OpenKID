@@ -1,15 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<KIDIndex>
+<KIDsIndex>
   <LastRepositoryUpdated>2017-08-23</LastRepositoryUpdated>
-  <KIDS>
+  <KIDs>
     <KIDEntry>
       <FinancialInstrumentIdentifyingData>IT0000000001</FinancialInstrumentIdentifyingData>
-      <TypeOfIdentificationCodeForTheFinancialInstrument>1</TypeOfIdentificationCodeForTheFinancialInstrument>
+      <FinancialInstrumentTypeOfIdentificationCode>1</FinancialInstrumentTypeOfIdentificationCode>
       <FinancialInstrumentName>Product Name A</FinancialInstrumentName>
       <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
       <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
-      <FirstDocumentPublished>2017-01-01</FirstDocumentPublished>
-      <LastDocumentUpdated>2017-06-30</LastDocumentUpdated>
+      <FirstKIDDocumentPublished>2017-01-01</FirstKIDDocumentPublished>
+      <LastKIDDocumentUpdated>2017-06-30</LastKIDDocumentUpdated>
+      <KIDDocumentVersions>
+        <KIDDocumentVersion>
+          <KIDLanguage>it</KIDLanguage>
+          <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-it.pdf</KIDUrl>
+        </KIDDocumentVersion>
+        <KIDDocumentVersion>
+          <KIDLanguage>en</KIDLanguage>
+          <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-en.pdf</KIDUrl>
+        </KIDDocumentVersion>
+      </KIDDocumentVersions>
+      <Attachments>
+        <Attachment>
+          <AttachmentDescription>Any description</AttachmentDescription>
+          <AttachmentLanguage>it</AttachmentLanguage>
+          <AttachmentUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-OtherFiles-it.zip</AttachmentUrl>
+        </Attachment>
+        <Attachment>
+          <AttachmentDescription>Any description</AttachmentDescription>
+          <AttachmentLanguage>en</AttachmentLanguage>
+          <AttachmentUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-OtherFiles-en.zip</AttachmentUrl>
+        </Attachment>
+      </Attachments>
+      <History>history/IT0000000001-history.xml</History>
       <TargetMarkets>
         <InvestorType>
           <InvestorTypeRetail>Y</InvestorTypeRetail>
@@ -30,7 +53,6 @@
         </AbilityToBearLosses>
         <RiskTolerance>
           <RiskTolerancePRIIPSMethodology>2</RiskTolerancePRIIPSMethodology>
-          <RiskToleranceUCITSMetholodology>3</RiskToleranceUCITSMetholodology>
         </RiskTolerance>
         <ClientObjectivesAndNeeds>
           <ReturnProfilePreservation>Y</ReturnProfilePreservation>
@@ -45,39 +67,48 @@
           <SpecificInvestmentNeed>N</SpecificInvestmentNeed>
         </ClientObjectivesAndNeeds>
       </TargetMarkets>
-      <KIDDocumentVersions>
-        <KIDDocumentVersion>
-          <KidLanguage>it</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-it.pdf</KidUrl>
-        </KIDDocumentVersion>
-        <KIDDocumentVersion>
-          <KidLanguage>en</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-en.pdf</KidUrl>
-        </KIDDocumentVersion>
-      </KIDDocumentVersions>
-      <Attachments>
-        <Attachment>
-          <AttachmentDescription>Any description</AttachmentDescription>
-          <AttachmentLanguage>it</AttachmentLanguage>
-          <AttachmentUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-OtherFiles-it.zip</AttachmentUrl>
-        </Attachment>
-        <Attachment>
-          <AttachmentDescription>Any description</AttachmentDescription>
-          <AttachmentLanguage>en</AttachmentLanguage>
-          <AttachmentUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-OtherFiles-en.zip</AttachmentUrl>
-        </Attachment>
-      </Attachments>
-      <History>history/IT0000000001-history.xml</History>
       <InvestmentOptions></InvestmentOptions>
     </KIDEntry>
     <KIDEntry>
       <FinancialInstrumentIdentifyingData>IT0000000002</FinancialInstrumentIdentifyingData>
-      <TypeOfIdentificationCodeForTheFinancialInstrument>1</TypeOfIdentificationCodeForTheFinancialInstrument>
+      <FinancialInstrumentTypeOfIdentificationCode>1</FinancialInstrumentTypeOfIdentificationCode>
       <FinancialInstrumentName>Product Name B</FinancialInstrumentName>
       <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
       <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
-      <FirstDocumentPublished>2017-09-01</FirstDocumentPublished>
-      <LastDocumentUpdated>2017-08-23</LastDocumentUpdated>
+      <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
+      <LastKIDDocumentUpdated>2017-08-23</LastKIDDocumentUpdated>
+      <KIDDocumentVersions>
+        <KIDDocumentVersion>
+          <KIDLanguage>it</KIDLanguage>
+          <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-KID-it.pdf</KIDUrl>
+        </KIDDocumentVersion>
+        <KIDDocumentVersion>
+          <KIDLanguage>en</KIDLanguage>
+          <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-KID-en.pdf</KIDUrl>
+        </KIDDocumentVersion>
+        <KIDDocumentVersion>
+          <KIDLanguage>de</KIDLanguage>
+          <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-KID-de.pdf</KIDUrl>
+        </KIDDocumentVersion>
+      </KIDDocumentVersions>
+      <Attachments>
+        <Attachment>
+          <AttachmentDescription>History files in zip</AttachmentDescription>
+          <AttachmentLanguage>it</AttachmentLanguage>
+          <AttachmentUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-history-it.zip</AttachmentUrl>
+        </Attachment>
+        <Attachment>
+          <AttachmentDescription>History files in zip</AttachmentDescription>
+          <AttachmentLanguage>en</AttachmentLanguage>
+          <AttachmentUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-history-en.zip</AttachmentUrl>
+        </Attachment>
+        <Attachment>
+          <AttachmentDescription>History files in zip</AttachmentDescription>
+          <AttachmentLanguage>de</AttachmentLanguage>
+          <AttachmentUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-history-de.zip</AttachmentUrl>
+        </Attachment>
+      </Attachments>
+      <History></History>
       <TargetMarkets>
         <InvestorType>
           <InvestorTypeRetail>N</InvestorTypeRetail>
@@ -98,7 +129,6 @@
         </AbilityToBearLosses>
         <RiskTolerance>
           <RiskTolerancePRIIPSMethodology>1</RiskTolerancePRIIPSMethodology>
-          <RiskToleranceUCITSMetholodology>5</RiskToleranceUCITSMetholodology>
         </RiskTolerance>
         <ClientObjectivesAndNeeds>
           <ReturnProfilePreservation>Neutral</ReturnProfilePreservation>
@@ -113,48 +143,28 @@
           <SpecificInvestmentNeed>E</SpecificInvestmentNeed>
         </ClientObjectivesAndNeeds>
       </TargetMarkets>
-      <KIDDocumentVersions>
-        <KIDDocumentVersion>
-          <KidLanguage>it</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-KID-it.pdf</KidUrl>
-        </KIDDocumentVersion>
-        <KIDDocumentVersion>
-          <KidLanguage>en</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-KID-en.pdf</KidUrl>
-        </KIDDocumentVersion>
-        <KIDDocumentVersion>
-          <KidLanguage>de</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-KID-de.pdf</KidUrl>
-        </KIDDocumentVersion>
-      </KIDDocumentVersions>
-      <Attachments>
-        <Attached>
-          <Description>History files in zip</Description>
-          <KidLanguage>it</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-history-it.zip</KidUrl>
-        </Attached>
-        <Attached>
-          <Description>History files in zip</Description>
-          <KidLanguage>en</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-history-en.zip</KidUrl>
-        </Attached>
-        <Attached>
-          <Description>History files in zip</Description>
-          <KidLanguage>de</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000002-history-de.zip</KidUrl>
-        </Attached>
-      </Attachments>
-      <History></History>
       <InvestmentOptions></InvestmentOptions>
     </KIDEntry>
     <KIDEntry>
       <FinancialInstrumentIdentifyingData>IT0000000003</FinancialInstrumentIdentifyingData>
-      <TypeOfIdentificationCodeForTheFinancialInstrument>1</TypeOfIdentificationCodeForTheFinancialInstrument>
+      <FinancialInstrumentTypeOfIdentificationCode>1</FinancialInstrumentTypeOfIdentificationCode>
       <FinancialInstrumentName>Product Name C</FinancialInstrumentName>
       <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
       <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
-      <FirstDocumentPublished>2017-09-01</FirstDocumentPublished>
-      <LastDocumentUpdated>2017-07-20</LastDocumentUpdated>
+      <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
+      <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
+      <KIDDocumentVersions>
+        <KIDDocumentVersion>
+          <KIDLanguage>it</KIDLanguage>
+          <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000003-KID-it.pdf</KIDUrl>
+        </KIDDocumentVersion>
+        <KIDDocumentVersion>
+          <KIDLanguage>en</KIDLanguage>
+          <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000003-KID-en.pdf</KIDUrl>
+        </KIDDocumentVersion>
+      </KIDDocumentVersions>
+      <Attachments></Attachments>
+      <History></History>
       <TargetMarkets>
         <InvestorType>
           <InvestorTypeRetail>Neutral</InvestorTypeRetail>
@@ -175,7 +185,6 @@
         </AbilityToBearLosses>
         <RiskTolerance>
           <RiskTolerancePRIIPSMethodology>2-6</RiskTolerancePRIIPSMethodology>
-          <RiskToleranceUCITSMetholodology></RiskToleranceUCITSMetholodology>
         </RiskTolerance>
         <ClientObjectivesAndNeeds>
           <ReturnProfilePreservation>Neutral</ReturnProfilePreservation>
@@ -190,27 +199,27 @@
           <SpecificInvestmentNeed>G</SpecificInvestmentNeed>
         </ClientObjectivesAndNeeds>
       </TargetMarkets>
-      <KIDDocumentVersions>
-        <KIDDocumentVersion>
-          <KidLanguage>it</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000003-KID-it.pdf</KidUrl>
-        </KIDDocumentVersion>
-        <KIDDocumentVersion>
-          <KidLanguage>en</KidLanguage>
-          <KidUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000003-KID-en.pdf</KidUrl>
-        </KIDDocumentVersion>
-      </KIDDocumentVersions>
-      <Attachments></Attachments>
-      <History></History>
       <InvestmentOptions>
         <KIDEntry>
           <FinancialInstrumentIdentifyingData>IT000000003A</FinancialInstrumentIdentifyingData>
-          <TypeOfIdentificationCodeForTheFinancialInstrument>1</TypeOfIdentificationCodeForTheFinancialInstrument>
+          <FinancialInstrumentTypeOfIdentificationCode>1</FinancialInstrumentTypeOfIdentificationCode>
           <FinancialInstrumentName>Product Name C1</FinancialInstrumentName>
           <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
           <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
-          <FirstDocumentPublished>2017-09-01</FirstDocumentPublished>
-          <LastDocumentUpdated>2017-07-20</LastDocumentUpdated>
+          <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
+          <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
+          <KIDDocumentVersions>
+            <KIDDocumentVersion>
+              <KIDLanguage>it</KIDLanguage>
+              <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003A-KID-it.pdf</KIDUrl>
+            </KIDDocumentVersion>
+            <KIDDocumentVersion>
+              <KIDLanguage>en</KIDLanguage>
+              <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003A-KID-en.pdf</KIDUrl>
+            </KIDDocumentVersion>
+          </KIDDocumentVersions>
+          <Attachments></Attachments>
+          <History></History>
           <TargetMarkets>
             <InvestorType>
               <InvestorTypeRetail>Neutral</InvestorTypeRetail>
@@ -231,7 +240,6 @@
             </AbilityToBearLosses>
             <RiskTolerance>
               <RiskTolerancePRIIPSMethodology>2</RiskTolerancePRIIPSMethodology>
-              <RiskToleranceUCITSMetholodology></RiskToleranceUCITSMetholodology>
             </RiskTolerance>
             <ClientObjectivesAndNeeds>
               <ReturnProfilePreservation>Neutral</ReturnProfilePreservation>
@@ -246,27 +254,27 @@
               <SpecificInvestmentNeed>G</SpecificInvestmentNeed>
             </ClientObjectivesAndNeeds>
           </TargetMarkets>
+        </KIDEntry>
+        <KIDEntry>
+          <FinancialInstrumentIdentifyingData>IT000000003B</FinancialInstrumentIdentifyingData>
+          <FinancialInstrumentTypeOfIdentificationCode>1</FinancialInstrumentTypeOfIdentificationCode>
+          <FinancialInstrumentName>Product Name C2</FinancialInstrumentName>
+          <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
+          <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
+          <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
+          <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
           <KIDDocumentVersions>
             <KIDDocumentVersion>
               <KIDLanguage>it</KIDLanguage>
-              <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003A-KID-it.pdf</KIDUrl>
+              <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003B-KID-it.pdf</KIDUrl>
             </KIDDocumentVersion>
             <KIDDocumentVersion>
               <KIDLanguage>en</KIDLanguage>
-              <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003A-KID-en.pdf</KIDUrl>
+              <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003B-KID-en.pdf</KIDUrl>
             </KIDDocumentVersion>
           </KIDDocumentVersions>
           <Attachments></Attachments>
           <History></History>
-        </KIDEntry>
-        <KIDEntry>
-          <FinancialInstrumentIdentifyingData>IT000000003B</FinancialInstrumentIdentifyingData>
-          <TypeOfIdentificationCodeForTheFinancialInstrument>1</TypeOfIdentificationCodeForTheFinancialInstrument>
-          <FinancialInstrumentName>Product Name C2</FinancialInstrumentName>
-          <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
-          <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
-          <FirstDocumentPublished>2017-09-01</FirstDocumentPublished>
-          <LastDocumentUpdated>2017-07-20</LastDocumentUpdated>
           <TargetMarkets>
             <InvestorType>
               <InvestorTypeRetail>Neutral</InvestorTypeRetail>
@@ -287,7 +295,6 @@
             </AbilityToBearLosses>
             <RiskTolerance>
               <RiskTolerancePRIIPSMethodology>6</RiskTolerancePRIIPSMethodology>
-              <RiskToleranceUCITSMetholodology></RiskToleranceUCITSMetholodology>
             </RiskTolerance>
             <ClientObjectivesAndNeeds>
               <ReturnProfilePreservation>Neutral</ReturnProfilePreservation>
@@ -302,20 +309,8 @@
               <SpecificInvestmentNeed>G</SpecificInvestmentNeed>
             </ClientObjectivesAndNeeds>
           </TargetMarkets>
-          <KIDDocumentVersions>
-            <KIDDocumentVersion>
-              <KIDLanguage>it</KIDLanguage>
-              <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003B-KID-it.pdf</KIDUrl>
-            </KIDDocumentVersion>
-            <KIDDocumentVersion>
-              <KIDLanguage>en</KIDLanguage>
-              <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT000000003B-KID-en.pdf</KIDUrl>
-            </KIDDocumentVersion>
-          </KIDDocumentVersions>
-          <Attachments></Attachments>
-          <History></History>
         </KIDEntry>
       </InvestmentOptions>
     </KIDEntry>
-  </KIDS>
-</KIDIndex>
+  </KIDs>
+</KIDsIndex>
