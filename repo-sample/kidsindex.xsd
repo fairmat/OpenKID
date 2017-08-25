@@ -10,7 +10,7 @@
               <xs:element maxOccurs="unbounded" name="KIDEntry">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="FinancialInstrumentIdentifyingData" minOccurs="1">
+                    <xs:element name="FinancialInstrumentIdentifyingData">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
                           <xs:minLength value="1"/>
@@ -24,7 +24,13 @@
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
-                    <xs:element name="FinancialInstrumentName" type="xs:string" />
+                    <xs:element name="FinancialInstrumentName">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:minLength value="1"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
                     <xs:element name="FinancialInstrumentCurrency">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -32,7 +38,7 @@
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
-                    <xs:element name="FinancialInstrumentIssuerName" minOccurs="1">
+                    <xs:element name="FinancialInstrumentIssuerName">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
                           <xs:minLength value="1"/>
@@ -43,7 +49,7 @@
                     <xs:element name="LastKIDDocumentUpdated" type="xs:date" />
                     <xs:element name="KIDDocumentVersions">
                       <xs:complexType>
-                        <xs:sequence>
+                        <xs:sequence minOccurs="1">
                           <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
                             <xs:complexType>
                               <xs:sequence>
@@ -233,7 +239,13 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="TimeHorizon" type="xs:string" />
+                                <xs:element name="TimeHorizon">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:pattern value="([0-9]+[.][0-9]+)|V|S|M|L|Neutral"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
                                 <xs:element name="MaturityDate" type="xs:date" />
                                 <xs:element name="MayBeTerminatedEarly">
                                   <xs:simpleType>
@@ -261,7 +273,7 @@
                           <xs:element maxOccurs="unbounded" name="KIDEntry">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element name="FinancialInstrumentIdentifyingData" minOccurs="1">
+                                <xs:element name="FinancialInstrumentIdentifyingData">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:minLength value="1"/>
@@ -275,7 +287,13 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="FinancialInstrumentName" type="xs:string" />
+                                <xs:element name="FinancialInstrumentName">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:minLength value="1"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
                                 <xs:element name="FinancialInstrumentCurrency">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
@@ -283,7 +301,7 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="FinancialInstrumentIssuerName" minOccurs="1">
+                                <xs:element name="FinancialInstrumentIssuerName">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:minLength value="1"/>
@@ -294,7 +312,7 @@
                                 <xs:element name="LastKIDDocumentUpdated" type="xs:date" />
                                 <xs:element name="KIDDocumentVersions">
                                   <xs:complexType>
-                                    <xs:sequence>
+                                    <xs:sequence minOccurs="1">
                                       <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
                                         <xs:complexType>
                                           <xs:sequence>
@@ -484,7 +502,13 @@
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="TimeHorizon" type="xs:string" />
+                                            <xs:element name="TimeHorizon">
+                                              <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                  <xs:pattern value="([0-9]+[.][0-9]+)|V|S|M|L|Neutral"/>
+                                                </xs:restriction>
+                                              </xs:simpleType>
+                                            </xs:element>
                                             <xs:element name="MaturityDate" type="xs:date" />
                                             <xs:element name="MayBeTerminatedEarly">
                                               <xs:simpleType>
