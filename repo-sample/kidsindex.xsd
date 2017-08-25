@@ -214,20 +214,20 @@
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="DocumentVersions">
+                    <xs:element name="KIDDocumentVersions">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element maxOccurs="unbounded" name="DocumentVersion">
+                          <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element name="Language">
+                                <xs:element name="KidLanguage">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="[a-z]{2}"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="Url" type="xs:anyURI" />
+                                <xs:element name="KidUrl" type="xs:anyURI" />
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
@@ -237,18 +237,18 @@
                     <xs:element name="Attachments">
                       <xs:complexType>
                         <xs:sequence minOccurs="0">
-                          <xs:element maxOccurs="unbounded" name="Attached">
+                          <xs:element maxOccurs="unbounded" name="Attachment">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element name="Description" type="xs:string" />
-                                <xs:element name="Language">
+                                <xs:element name="AttachmentDescription" type="xs:string" />
+                                <xs:element name="AttachmentLanguage">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="[a-z]{2}"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="Url" type="xs:anyURI" />
+                                <xs:element name="AttachmentUrl" type="xs:anyURI" />
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
@@ -466,20 +466,20 @@
                                     </xs:sequence>
                                   </xs:complexType>
                                 </xs:element>
-                                <xs:element name="DocumentVersions">
+                                <xs:element name="KIDDocumentVersions">
                                   <xs:complexType>
                                     <xs:sequence>
-                                      <xs:element maxOccurs="unbounded" name="DocumentVersion">
+                                      <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
                                         <xs:complexType>
                                           <xs:sequence>
-                                            <xs:element name="Language">
+                                            <xs:element name="KIDLanguage">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="[a-z]{2}"/>
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="Url" type="xs:anyURI" />
+                                            <xs:element name="KIDUrl" type="xs:anyURI" />
                                           </xs:sequence>
                                         </xs:complexType>
                                       </xs:element>
@@ -489,18 +489,18 @@
                                 <xs:element name="Attachments">
                                   <xs:complexType>
                                     <xs:sequence minOccurs="0">
-                                      <xs:element maxOccurs="unbounded" name="Attached">
+                                      <xs:element maxOccurs="unbounded" name="Attachment">
                                         <xs:complexType>
                                           <xs:sequence>
-                                            <xs:element name="Description" type="xs:string" />
-                                            <xs:element name="Language">
+                                            <xs:element name="AttachmentDescription" type="xs:string" />
+                                            <xs:element name="AttachmentLanguage">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="[a-z]{2}"/>
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="Url" type="xs:anyURI" />
+                                            <xs:element name="AttachmentUrl" type="xs:anyURI" />
                                           </xs:sequence>
                                         </xs:complexType>
                                       </xs:element>
