@@ -5,11 +5,11 @@
 		<KIDDocumentVersions>
 			<KIDDocumentVersion>
 				<KIDLanguage>it</KIDLanguage>
-				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-it-v1.pdf</KIDUrl>
+				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-it-v1.pdf</KIDUrl>
 			</KIDDocumentVersion>
 			<KIDDocumentVersion>
 				<KIDLanguage>en</KIDLanguage>
-				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-en-v1.pdf</KIDUrl>
+				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-en-v1.pdf</KIDUrl>
 			</KIDDocumentVersion>
 		</KIDDocumentVersions>
 	</KIDDocumentUpdated>
@@ -18,11 +18,11 @@
 		<KIDDocumentVersions>
 			<KIDDocumentVersion>
 				<KIDLanguage>it</KIDLanguage>
-				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-it-v2.pdf</KIDUrl>
+				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-it-v2.pdf</KIDUrl>
 			</KIDDocumentVersion>
 			<KIDDocumentVersion>
 				<KIDLanguage>en</KIDLanguage>
-				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-en-v2.pdf</KIDUrl>
+				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-en-v2.pdf</KIDUrl>
 			</KIDDocumentVersion>
 		</KIDDocumentVersions>
 	</KIDDocumentUpdated>
@@ -31,11 +31,11 @@
 		<KIDDocumentVersions>
 			<KIDDocumentVersion>
 				<KIDLanguage>it</KIDLanguage>
-				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-it-v3.pdf</KIDUrl>
+				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-it-v3.pdf</KIDUrl>
 			</KIDDocumentVersion>
 			<KIDDocumentVersion>
 				<KIDLanguage>en</KIDLanguage>
-				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-KID-en-v3.pdf</KIDUrl>
+				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-en-v3.pdf</KIDUrl>
 			</KIDDocumentVersion>
 		</KIDDocumentVersions>
 	</KIDDocumentUpdated>
