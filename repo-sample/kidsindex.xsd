@@ -60,7 +60,13 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="KIDUrl" type="xs:anyURI" />
+                                <xs:element name="KIDUrl">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:anyURI">
+                                      <xs:pattern value="https?://.+" />
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
@@ -81,14 +87,26 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="AttachmentUrl" type="xs:anyURI" />
+                                <xs:element name="AttachmentUrl">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:anyURI">
+                                      <xs:pattern value="https?://.+" />
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="History" type="xs:string" />
+                    <xs:element name="History">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:anyURI">
+                          <xs:pattern value="https?://.+|" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
                     <xs:element name="TargetMarkets">
                       <xs:complexType>
                         <xs:sequence>
@@ -323,7 +341,13 @@
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="KIDUrl" type="xs:anyURI" />
+                                            <xs:element name="KIDUrl">
+                                              <xs:simpleType>
+                                                <xs:restriction base="xs:anyURI">
+                                                  <xs:pattern value="https?://.+" />
+                                                </xs:restriction>
+                                              </xs:simpleType>
+                                            </xs:element>
                                           </xs:sequence>
                                         </xs:complexType>
                                       </xs:element>
@@ -344,14 +368,26 @@
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="AttachmentUrl" type="xs:anyURI" />
+                                            <xs:element name="AttachmentUrl">
+                                              <xs:simpleType>
+                                                <xs:restriction base="xs:anyURI">
+                                                  <xs:pattern value="https?://.+" />
+                                                </xs:restriction>
+                                              </xs:simpleType>
+                                            </xs:element>
                                           </xs:sequence>
                                         </xs:complexType>
                                       </xs:element>
                                     </xs:sequence>
                                   </xs:complexType>
                                 </xs:element>
-                                <xs:element name="History" type="xs:string" />
+                                <xs:element name="History">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:anyURI">
+                                      <xs:pattern value="https?://.+|" />
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
                                 <xs:element name="TargetMarkets">
                                   <xs:complexType>
                                     <xs:sequence>

@@ -32,7 +32,7 @@
           <AttachmentUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/KIDS/IT0000000001-OtherFiles-en.zip</AttachmentUrl>
         </Attachment>
       </Attachments>
-      <History>history/IT0000000001-history.xml</History>
+      <History>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/history/IT0000000001-history.xml</History>
       <TargetMarkets>
         <InvestorType>
           <InvestorTypeRetail>Y</InvestorTypeRetail>
