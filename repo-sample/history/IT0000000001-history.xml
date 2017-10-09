@@ -4,12 +4,12 @@
 		<KIDDocumentPublished>2016-03-01</KIDDocumentPublished>
 		<KIDDocumentVersions>
 			<KIDDocumentVersion>
-        <KIDName>KidName1</KIDName>
+				<KIDName>KidName1</KIDName>
 				<KIDLanguage>it</KIDLanguage>
 				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-it-v1.pdf</KIDUrl>
 			</KIDDocumentVersion>
 			<KIDDocumentVersion>
-        <KIDName>KidName2</KIDName>
+				<KIDName>KidName2</KIDName>
 				<KIDLanguage>en</KIDLanguage>
 				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-en-v1.pdf</KIDUrl>
 			</KIDDocumentVersion>
@@ -19,12 +19,12 @@
 		<KIDDocumentPublished>2016-04-15</KIDDocumentPublished>
 		<KIDDocumentVersions>
 			<KIDDocumentVersion>
-        <KIDName>KidName1</KIDName>
+				<KIDName>KidName1</KIDName>
 				<KIDLanguage>it</KIDLanguage>
 				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-it-v2.pdf</KIDUrl>
 			</KIDDocumentVersion>
 			<KIDDocumentVersion>
-        <KIDName>KidName2</KIDName>
+				<KIDName>KidName2</KIDName>
 				<KIDLanguage>en</KIDLanguage>
 				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-en-v2.pdf</KIDUrl>
 			</KIDDocumentVersion>
@@ -34,12 +34,12 @@
 		<KIDDocumentPublished>2016-05-10</KIDDocumentPublished>
 		<KIDDocumentVersions>
 			<KIDDocumentVersion>
-        <KIDName>KidName1</KIDName>
+				<KIDName>KidName1</KIDName>
 				<KIDLanguage>it</KIDLanguage>
 				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-it-v3.pdf</KIDUrl>
 			</KIDDocumentVersion>
 			<KIDDocumentVersion>
-        <KIDName>KidName2</KIDName>
+				<KIDName>KidName2</KIDName>
 				<KIDLanguage>en</KIDLanguage>
 				<KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-en-v3.pdf</KIDUrl>
 			</KIDDocumentVersion>
