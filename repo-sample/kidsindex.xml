@@ -12,12 +12,12 @@
       <LastKIDDocumentUpdated>2017-06-30</LastKIDDocumentUpdated>
       <KIDDocumentVersions>
         <KIDDocumentVersion>
-          <KidName>KidName1</KidName>
+          <KIDName>KidName1</KIDName>
           <KIDLanguage>it</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-it.pdf</KIDUrl>
         </KIDDocumentVersion>
         <KIDDocumentVersion>
-          <KidName>KidName2</KidName>
+          <KIDName>KidName2</KIDName>
           <KIDLanguage>en</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-en.pdf</KIDUrl>
         </KIDDocumentVersion>
@@ -82,17 +82,17 @@
       <KIDVersionIdentificationCode>KidVersionIdentificationCode</KIDVersionIdentificationCode>
       <KIDDocumentVersions>
         <KIDDocumentVersion>
-          <KidName>KidName1</KidName>
+          <KIDName>KidName1</KIDName>
           <KIDLanguage>it</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000002-KID-it.pdf</KIDUrl>
         </KIDDocumentVersion>
         <KIDDocumentVersion>
-          <KidName>KidName2</KidName>
+          <KIDName>KidName2</KIDName>
           <KIDLanguage>en</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000002-KID-en.pdf</KIDUrl>
         </KIDDocumentVersion>
         <KIDDocumentVersion>
-          <KidName>KidName3</KidName>
+          <KIDName>KidName3</KIDName>
           <KIDLanguage>de</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000002-KID-de.pdf</KIDUrl>
         </KIDDocumentVersion>
@@ -161,12 +161,12 @@
       <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
       <KIDDocumentVersions>
         <KIDDocumentVersion>
-          <KidName>KidName1</KidName>
+          <KIDName>KidName1</KIDName>
           <KIDLanguage>it</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000003-KID-it.pdf</KIDUrl>
         </KIDDocumentVersion>
         <KIDDocumentVersion>
-          <KidName>KidName2</KidName>
+          <KIDName>KidName2</KIDName>
           <KIDLanguage>en</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000003-KID-en.pdf</KIDUrl>
         </KIDDocumentVersion>
@@ -217,12 +217,12 @@
           <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
           <KIDDocumentVersions>
             <KIDDocumentVersion>
-              <KidName>KidName1</KidName>
+              <KIDName>KidName1</KIDName>
               <KIDLanguage>it</KIDLanguage>
               <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT000000003A-KID-it.pdf</KIDUrl>
             </KIDDocumentVersion>
             <KIDDocumentVersion>
-              <KidName>KidName2</KidName>
+              <KIDName>KidName2</KIDName>
               <KIDLanguage>en</KIDLanguage>
               <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT000000003A-KID-en.pdf</KIDUrl>
             </KIDDocumentVersion>
@@ -271,12 +271,12 @@
           <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
           <KIDDocumentVersions>
             <KIDDocumentVersion>
-              <KidName>KidName1</KidName>
+              <KIDName>KidName1</KIDName>
               <KIDLanguage>it</KIDLanguage>
               <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT000000003B-KID-it.pdf</KIDUrl>
             </KIDDocumentVersion>
             <KIDDocumentVersion>
-              <KidName>KidName2</KidName>
+              <KIDName>KidName2</KIDName>
               <KIDLanguage>en</KIDLanguage>
               <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT000000003B-KID-en.pdf</KIDUrl>
             </KIDDocumentVersion>
