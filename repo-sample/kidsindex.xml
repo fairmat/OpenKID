@@ -12,10 +12,12 @@
       <LastKIDDocumentUpdated>2017-06-30</LastKIDDocumentUpdated>
       <KIDDocumentVersions>
         <KIDDocumentVersion>
+          <KidName>KidName1</KidName>
           <KIDLanguage>it</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-it.pdf</KIDUrl>
         </KIDDocumentVersion>
         <KIDDocumentVersion>
+          <KidName>KidName2</KidName>
           <KIDLanguage>en</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000001-KID-en.pdf</KIDUrl>
         </KIDDocumentVersion>
@@ -77,16 +79,20 @@
       <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
       <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
       <LastKIDDocumentUpdated>2017-08-23</LastKIDDocumentUpdated>
+      <KIDVersionIdentificationCode>KidVersionIdentificationCode</KIDVersionIdentificationCode>
       <KIDDocumentVersions>
         <KIDDocumentVersion>
+          <KidName>KidName1</KidName>
           <KIDLanguage>it</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000002-KID-it.pdf</KIDUrl>
         </KIDDocumentVersion>
         <KIDDocumentVersion>
+          <KidName>KidName2</KidName>
           <KIDLanguage>en</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000002-KID-en.pdf</KIDUrl>
         </KIDDocumentVersion>
         <KIDDocumentVersion>
+          <KidName>KidName3</KidName>
           <KIDLanguage>de</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000002-KID-de.pdf</KIDUrl>
         </KIDDocumentVersion>
@@ -155,10 +161,12 @@
       <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
       <KIDDocumentVersions>
         <KIDDocumentVersion>
+          <KidName>KidName1</KidName>
           <KIDLanguage>it</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000003-KID-it.pdf</KIDUrl>
         </KIDDocumentVersion>
         <KIDDocumentVersion>
+          <KidName>KidName2</KidName>
           <KIDLanguage>en</KIDLanguage>
           <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT0000000003-KID-en.pdf</KIDUrl>
         </KIDDocumentVersion>
@@ -205,21 +213,20 @@
           <FinancialInstrumentTypeOfIdentificationCode>1</FinancialInstrumentTypeOfIdentificationCode>
           <FinancialInstrumentName>Product Name C1</FinancialInstrumentName>
           <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
-          <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
           <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
           <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
           <KIDDocumentVersions>
             <KIDDocumentVersion>
+              <KidName>KidName1</KidName>
               <KIDLanguage>it</KIDLanguage>
               <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT000000003A-KID-it.pdf</KIDUrl>
             </KIDDocumentVersion>
             <KIDDocumentVersion>
+              <KidName>KidName2</KidName>
               <KIDLanguage>en</KIDLanguage>
               <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT000000003A-KID-en.pdf</KIDUrl>
             </KIDDocumentVersion>
           </KIDDocumentVersions>
-          <Attachments></Attachments>
-          <History></History>
           <TargetMarkets>
             <InvestorType>
               <InvestorTypeRetail>Neutral</InvestorTypeRetail>
@@ -260,21 +267,20 @@
           <FinancialInstrumentTypeOfIdentificationCode>1</FinancialInstrumentTypeOfIdentificationCode>
           <FinancialInstrumentName>Product Name C2</FinancialInstrumentName>
           <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
-          <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
           <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
           <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
           <KIDDocumentVersions>
             <KIDDocumentVersion>
+              <KidName>KidName1</KidName>
               <KIDLanguage>it</KIDLanguage>
               <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT000000003B-KID-it.pdf</KIDUrl>
             </KIDDocumentVersion>
             <KIDDocumentVersion>
+              <KidName>KidName2</KidName>
               <KIDLanguage>en</KIDLanguage>
               <KIDUrl>https://raw.githubusercontent.com/fairmat/OpenKID/master/repo-sample/kids/IT000000003B-KID-en.pdf</KIDUrl>
             </KIDDocumentVersion>
           </KIDDocumentVersions>
-          <Attachments></Attachments>
-          <History></History>
           <TargetMarkets>
             <InvestorType>
               <InvestorTypeRetail>Neutral</InvestorTypeRetail>
