@@ -121,7 +121,7 @@
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="History">
+                    <xs:element name="History" minOccurs="0">
                       <xs:simpleType>
                         <xs:restriction base="xs:anyURI">
                           <xs:pattern value="https?://.+|" />
