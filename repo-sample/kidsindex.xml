@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <KIDsIndex>
-  <LastRepositoryUpdated>2017-10-12</LastRepositoryUpdated>
+  <LastRepositoryUpdated>2017-10-12T00:00:00</LastRepositoryUpdated>
   <KIDs>
     <KIDEntry>
       <FinancialInstrumentIdentifyingData>IT0000000001</FinancialInstrumentIdentifyingData>
@@ -8,8 +8,8 @@
       <FinancialInstrumentName>Product Name A</FinancialInstrumentName>
       <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
       <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
-      <FirstKIDDocumentPublished>2017-01-01</FirstKIDDocumentPublished>
-      <LastKIDDocumentUpdated>2017-06-30</LastKIDDocumentUpdated>
+      <FirstKIDDocumentPublished>2017-01-01T00:00:00</FirstKIDDocumentPublished>
+      <LastKIDDocumentUpdated>2017-06-30T00:00:00</LastKIDDocumentUpdated>
       <KIDDocumentVersions>
         <KIDDocumentVersion>
           <KIDName>KidName1</KIDName>
@@ -69,7 +69,6 @@
           <SpecificInvestmentNeed>N</SpecificInvestmentNeed>
         </ClientObjectivesAndNeeds>
       </TargetMarkets>
-      <InvestmentOptions></InvestmentOptions>
     </KIDEntry>
     <KIDEntry>
       <FinancialInstrumentIdentifyingData>IT0000000002</FinancialInstrumentIdentifyingData>
@@ -77,8 +76,8 @@
       <FinancialInstrumentName>Product Name B</FinancialInstrumentName>
       <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
       <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
-      <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
-      <LastKIDDocumentUpdated>2017-08-23</LastKIDDocumentUpdated>
+      <FirstKIDDocumentPublished>2017-09-01T00:00:00</FirstKIDDocumentPublished>
+      <LastKIDDocumentUpdated>2017-08-23T00:00:00</LastKIDDocumentUpdated>
       <KIDVersionIdentificationCode>KidVersionIdentificationCode</KIDVersionIdentificationCode>
       <KIDDocumentVersions>
         <KIDDocumentVersion>
@@ -149,7 +148,6 @@
           <SpecificInvestmentNeed>E</SpecificInvestmentNeed>
         </ClientObjectivesAndNeeds>
       </TargetMarkets>
-      <InvestmentOptions></InvestmentOptions>
     </KIDEntry>
     <KIDEntry>
       <FinancialInstrumentIdentifyingData>IT0000000003</FinancialInstrumentIdentifyingData>
@@ -157,8 +155,8 @@
       <FinancialInstrumentName>Product Name C</FinancialInstrumentName>
       <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
       <FinancialInstrumentIssuerName>Issuer Name</FinancialInstrumentIssuerName>
-      <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
-      <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
+      <FirstKIDDocumentPublished>2017-09-01T00:00:00</FirstKIDDocumentPublished>
+      <LastKIDDocumentUpdated>2017-07-20T00:00:00</LastKIDDocumentUpdated>
       <KIDDocumentVersions>
         <KIDDocumentVersion>
           <KIDName>KidName1</KIDName>
@@ -213,8 +211,8 @@
           <FinancialInstrumentTypeOfIdentificationCode>1</FinancialInstrumentTypeOfIdentificationCode>
           <FinancialInstrumentName>Product Name C1</FinancialInstrumentName>
           <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
-          <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
-          <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
+          <FirstKIDDocumentPublished>2017-09-01T00:00:00</FirstKIDDocumentPublished>
+          <LastKIDDocumentUpdated>2017-07-20T00:00:00</LastKIDDocumentUpdated>
           <KIDDocumentVersions>
             <KIDDocumentVersion>
               <KIDName>KidName1</KIDName>
@@ -267,8 +265,8 @@
           <FinancialInstrumentTypeOfIdentificationCode>1</FinancialInstrumentTypeOfIdentificationCode>
           <FinancialInstrumentName>Product Name C2</FinancialInstrumentName>
           <FinancialInstrumentCurrency>EUR</FinancialInstrumentCurrency>
-          <FirstKIDDocumentPublished>2017-09-01</FirstKIDDocumentPublished>
-          <LastKIDDocumentUpdated>2017-07-20</LastKIDDocumentUpdated>
+          <FirstKIDDocumentPublished>2017-09-01T00:00:00</FirstKIDDocumentPublished>
+          <LastKIDDocumentUpdated>2017-07-20T00:00:00</LastKIDDocumentUpdated>
           <KIDDocumentVersions>
             <KIDDocumentVersion>
               <KIDName>KidName1</KIDName>

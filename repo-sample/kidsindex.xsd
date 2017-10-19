@@ -3,7 +3,7 @@
   <xs:element name="KIDsIndex">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="LastRepositoryUpdated" type="xs:date" />
+        <xs:element name="LastRepositoryUpdated" type="xs:dateTime" />
         <xs:element name="KIDs">
           <xs:complexType>
             <xs:sequence>
@@ -52,8 +52,8 @@
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
-                    <xs:element name="FirstKIDDocumentPublished" type="xs:date" />
-                    <xs:element name="LastKIDDocumentUpdated" type="xs:date" />
+                    <xs:element name="FirstKIDDocumentPublished" type="xs:dateTime" minOccurs="0"/>
+                    <xs:element name="LastKIDDocumentUpdated" type="xs:dateTime" />
                     <xs:element name="KIDVersionIdentificationCode" minOccurs="0">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -67,13 +67,7 @@
                           <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element name="KIDName">
-                                  <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                      <xs:minLength value="1"/>
-                                    </xs:restriction>
-                                  </xs:simpleType>
-                                </xs:element>
+                                <xs:element name="KIDName" minOccurs="0" type="xs:string" />
                                 <xs:element name="KIDLanguage">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
@@ -81,13 +75,7 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="KIDUrl">
-                                  <xs:simpleType>
-                                    <xs:restriction base="xs:anyURI">
-                                      <xs:pattern value="https?://.+" />
-                                    </xs:restriction>
-                                  </xs:simpleType>
-                                </xs:element>
+                                <xs:element name="KIDUrl" type="xs:anyURI" />
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
@@ -108,13 +96,7 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="AttachmentUrl">
-                                  <xs:simpleType>
-                                    <xs:restriction base="xs:anyURI">
-                                      <xs:pattern value="https?://.+" />
-                                    </xs:restriction>
-                                  </xs:simpleType>
-                                </xs:element>
+                                <xs:element name="AttachmentUrl" type="xs:anyURI" />
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
@@ -134,21 +116,21 @@
                           <xs:element name="InvestorType" minOccurs="0">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element name="InvestorTypeRetail">
+                                <xs:element name="InvestorTypeRetail" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="InvestorTypeProfessional">
+                                <xs:element name="InvestorTypeProfessional" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|P|E|B|"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="InvestorTypeEligibleCounterparty">
+                                <xs:element name="InvestorTypeEligibleCounterparty" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|"/>
@@ -161,21 +143,21 @@
                           <xs:element name="KnowledgeAndExperience" minOccurs="0">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element name="BasicInvestor">
+                                <xs:element name="BasicInvestor" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="InformedInvestor">
+                                <xs:element name="InformedInvestor" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="AdvancedInvestor">
+                                <xs:element name="AdvancedInvestor" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|"/>
@@ -188,29 +170,29 @@
                           <xs:element name="AbilityToBearLosses" minOccurs="0">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element name="NoCapitalLoss">
+                                <xs:element name="NoCapitalLoss" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="LimitedCapitalLoss">
+                                <xs:element name="LimitedCapitalLoss" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="LimitedCapitalLossLevel" type="xs:decimal" />
-                                <xs:element name="NoCapitalGuarantee">
+                                <xs:element name="LimitedCapitalLossLevel" type="xs:decimal" minOccurs="0"/>
+                                <xs:element name="NoCapitalGuarantee" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="LossBeyondCapital">
+                                <xs:element name="LossBeyondCapital" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="Y|N|Neutral|"/>
@@ -306,9 +288,9 @@
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="InvestmentOptions">
+                    <xs:element name="InvestmentOptions" minOccurs="0">
                       <xs:complexType>
-                        <xs:sequence minOccurs="0">
+                        <xs:sequence>
                           <xs:element maxOccurs="unbounded" name="KIDEntry">
                             <xs:complexType>
                               <xs:sequence>
@@ -340,8 +322,8 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="FirstKIDDocumentPublished" type="xs:date" />
-                                <xs:element name="LastKIDDocumentUpdated" type="xs:date" />
+                                <xs:element name="FirstKIDDocumentPublished" type="xs:dateTime" minOccurs="0"/>
+                                <xs:element name="LastKIDDocumentUpdated" type="xs:dateTime" />
                                 <xs:element name="KIDVersionIdentificationCode" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
@@ -355,13 +337,7 @@
                                       <xs:element maxOccurs="unbounded" name="KIDDocumentVersion">
                                         <xs:complexType>
                                           <xs:sequence>
-                                            <xs:element name="KIDName">
-                                              <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                  <xs:minLength value="1"/>
-                                                </xs:restriction>
-                                              </xs:simpleType>
-                                            </xs:element>
+                                            <xs:element name="KIDName" minOccurs="0" type="xs:string" />
                                             <xs:element name="KIDLanguage">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
@@ -369,13 +345,7 @@
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="KIDUrl">
-                                              <xs:simpleType>
-                                                <xs:restriction base="xs:anyURI">
-                                                  <xs:pattern value="https?://.+" />
-                                                </xs:restriction>
-                                              </xs:simpleType>
-                                            </xs:element>
+                                            <xs:element name="KIDUrl" type="xs:anyURI" />
                                           </xs:sequence>
                                         </xs:complexType>
                                       </xs:element>
@@ -388,21 +358,21 @@
                                       <xs:element name="InvestorType" minOccurs="0">
                                         <xs:complexType>
                                           <xs:sequence>
-                                            <xs:element name="InvestorTypeRetail">
+                                            <xs:element name="InvestorTypeRetail" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|"/>
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="InvestorTypeProfessional">
+                                            <xs:element name="InvestorTypeProfessional" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|P|E|B|"/>
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="InvestorTypeEligibleCounterparty">
+                                            <xs:element name="InvestorTypeEligibleCounterparty" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|"/>
@@ -415,21 +385,21 @@
                                       <xs:element name="KnowledgeAndExperience" minOccurs="0">
                                         <xs:complexType>
                                           <xs:sequence>
-                                            <xs:element name="BasicInvestor">
+                                            <xs:element name="BasicInvestor" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|"/>
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="InformedInvestor">
+                                            <xs:element name="InformedInvestor" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|"/>
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="AdvancedInvestor">
+                                            <xs:element name="AdvancedInvestor" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|"/>
@@ -442,29 +412,29 @@
                                       <xs:element name="AbilityToBearLosses" minOccurs="0">
                                         <xs:complexType>
                                           <xs:sequence>
-                                            <xs:element name="NoCapitalLoss">
+                                            <xs:element name="NoCapitalLoss" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|"/>
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="LimitedCapitalLoss">
+                                            <xs:element name="LimitedCapitalLoss" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|"/>
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="LimitedCapitalLossLevel" type="xs:decimal" />
-                                            <xs:element name="NoCapitalGuarantee">
+                                            <xs:element name="LimitedCapitalLossLevel" type="xs:decimal" minOccurs="0"/>
+                                            <xs:element name="NoCapitalGuarantee" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|"/>
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="LossBeyondCapital">
+                                            <xs:element name="LossBeyondCapital" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="Y|N|Neutral|"/>
