@@ -54,6 +54,7 @@
                     </xs:element>
                     <xs:element name="FirstKIDDocumentPublished" type="xs:dateTime" minOccurs="0"/>
                     <xs:element name="LastKIDDocumentUpdated" type="xs:dateTime" />
+                    <xs:element name="LastKIDDocumentValidityDate" type="xs:dateTime" minOccurs="0" />
                     <xs:element name="KIDVersionIdentificationCode" minOccurs="0">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
