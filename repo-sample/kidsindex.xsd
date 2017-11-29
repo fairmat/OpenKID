@@ -38,6 +38,13 @@
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
+                    <xs:element name="FinancialInstrumentIssuerIdentifyingData" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:minLength value="1"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
                     <xs:element name="FinancialInstrumentIssuerName">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -320,6 +327,13 @@
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="[A-Z]{3}"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="FinancialInstrumentIssuerIdentifyingData" minOccurs="0">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:minLength value="1"/>
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
