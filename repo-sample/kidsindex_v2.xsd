@@ -83,7 +83,7 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="KIDJurisdiction">
+                                <xs:element name="KIDJurisdiction" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="[A-Z]{3}"/>
@@ -111,7 +111,7 @@
                                     </xs:restriction>
                                   </xs:simpleType>
                                 </xs:element>
-                                <xs:element name="AttachmentJurisdiction">
+                                <xs:element name="AttachmentJurisdiction" minOccurs="0">
                                   <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                       <xs:pattern value="[A-Z]{3}"/>
@@ -375,7 +375,7 @@
                                                 </xs:restriction>
                                               </xs:simpleType>
                                             </xs:element>
-                                            <xs:element name="KIDJurisdiction">
+                                            <xs:element name="KIDJurisdiction" minOccurs="0">
                                               <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                   <xs:pattern value="[A-Z]{3}"/>
